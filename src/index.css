@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  max-width: 75vw;
+  padding: 50px;
+}
+
+.new-container {
+  position: absolute;
+  display: flex;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  flex-wrap: wrap;
+  max-width: 85vw;
+  padding: 150px;
+}
+
+.new-container > * {
+  flex: 1 1 0px;
+}
